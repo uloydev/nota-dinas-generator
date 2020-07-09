@@ -10,8 +10,6 @@ import locale
 # get todays date
 today = format_date(date.today(),  "d MMMM Y", locale="id_ID")
 operational_date = format_date(date.today(), "d-M-Y", locale="id_ID")
-print(operational_date)
-exit()
 
 doc = DocxTemplate('docs/template/template.docx')
 
